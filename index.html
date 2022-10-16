@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+    <!--Fonte abaixo-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    <!--font-family: 'VT323', monospace;-->
+    <title>mini-portfólio</title>
+</head>
+<body>
+    <main class="cartao">
+        <section>
+            <div class="minhas-informacoes"> <!--Dados pessoais-->
+                <img src="./src/imagens/foto-perfil.jpg" alt="foto de perfil">
+                <h1 class="nome">Clarisse Cerqueira de Almeida</h1>
+                <h2 class="cargo">Desenvolvedora Frontend</h2>
+            </div>
+
+            <div class="conteudo"> <!--Div de conteúdo do cartão-->
+                    <ul class="abas">
+                        <li class="aba selecionado" id="sobre-mim">
+                            <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim">
+                        </li>
+                        <li class="aba" id="minhas-redes">
+                            <img src="./src/imagens/coracao.gif" alt="ícone de redes sociais">
+                        </li>
+                    </ul>
+
+                    <div class="informacoes-abas">
+                        <div class="informacao selecionado" id="informacao-sobre-mim">
+                            <h3 class="sub-titulo">Sobre</h3> <!--div de sobre-->
+
+                            <div class="descricao">
+                                <p>
+                                    Oi! Meu nome é Clarisse, tenho 24 anos e estou iniciando na área de dev, portanto, seja bem vindo(a) ao meu portfólio!
+                                </p><br/>
+
+                                <p>
+                                    Cresci com um grande interesse na área de tecnologia, sempre tive muito contato com computadores desde a infância, até que um dia conheci 
+                                    a programação e resolvi me aprofundar, comecei a gostar tanto de como cada detalhe era reproduzido após a finalização de um projeto, que 
+                                    'codar' logo se tornou um dos meus hobbies. Hoje, estudo com a vontade de dominar o frontend, buscando sempre ampliar meu conhecimento e 
+                                    aprimorar minhas habilidades.
+                                    No momento, estou estudando <span>HTML, CSS e Javascript</span>.
+                                    Gosto muito de jogar, tendo preferência por jogos clássicos, também gosto de ver séries e prezo muito por momentos
+                                    em família.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="informacao" id="informacao-minhas-redes"> <!--div das redes-->
+                            <h3 class="sub-titulo">Minhas redes</h3>
+
+                            <ul class="redes-sociais">
+                                <li>
+                                    <a href="" target="_blank" class="curriculo">Currículo</a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/in/clarisse-c-almeida" target="_blank" class="linkedin">LinkedIn</a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/Clarabyte" target="_blank" class="github">GitHub</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+</body>
+</html>
